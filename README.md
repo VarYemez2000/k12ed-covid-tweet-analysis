@@ -1,5 +1,5 @@
 
-# Analyzing Tweets on K-12 Education During the COVID-19 Pandemic 
+# Analyzing Tweets on K-12 Education During the COVID-19 Pandemic (Work in Progress)
 
 
 Prepared and presented by: [Leah Pope](https://www.linkedin.com/in/leahspope/)
@@ -33,19 +33,23 @@ X Tweets made it to the final project dataset after combining the Kaggle and col
 See the [Data Prep Notebook](./code/nb1_data_prep.ipynb) for additional information on data collection and preparation. 
 
 
-
 # Topics Deep Dive
 I wanted to take a closer look at the Topics modeled by LDA. Using [pyLDAvis](https://github.com/bmabey/pyLDAvis), I created interactive visualizations for various topic sets. 
 
 
 # Sentiment Classifer Modeling
+Coming Soon
+<!-- 
 In the [Model Experimentation Notebook](./code/nb4_model_playground.ipynb), I trained different multiclass classifers.  I used weighted F1 score as the performance metric, and ultimately selected the X model for further tuning.
 
 In the [Final Model Notebook](./code/nb5_modeling.ipynb), I performed hyperparameter tuning using GridSearchCV, resulting in a multiclass classifer with the following performance:
 * Weighted F1 score of __X.XX__ 
 
+-->
 
 # Recommendations
+Coming Soon 
+<!--
 My recommendations are for the Education-focused Stakeholders identified in the Introduction.
 
 ### Recommendation 1
@@ -60,7 +64,6 @@ My recommendations are for the Education-focused Stakeholders identified in the 
 * Audience: Education-focused Stakeholders
 * TBD
 
-<!-- 
 # Future Work
 * Create a dashboard/app that would allow the user to select specific Regions and/or States for Topic Modeling. Also allow for setting the desired number of topics and top word count. 
 * Create a dashboard/app to classify Tweets from the live Twitter stream. Allow the user to stream for Tweets for the entire United States, or selected US Region(s) or selected US State(s).
@@ -69,14 +72,6 @@ My recommendations are for the Education-focused Stakeholders identified in the 
     * For Example: Create a Text Classifer with Educators in mind.  Detect Tweets on Topics such as Online Teaching Resources, Participation/Engagment Tips for Online Learning, Teacher Professional Development, EdTech Products.
 * Continue to collect Tweets over a longer timespan and update model.
 * Improve the regex code used to detect a 'likely' United States location from the Tweet User-provided Location string.
--->
-
-
-
-# For More Information
-* Contact the author [Leah Pope](https://www.linkedin.com/in/leahspope/)
-
-
 
 # Repository Structure
 ```
@@ -94,3 +89,9 @@ My recommendations are for the Education-focused Stakeholders identified in the 
 --data (dir for all data files ingested/generated)
 --images (dir for images)
 ```
+-->
+
+# For More Information
+* Contact the author [Leah Pope](https://www.linkedin.com/in/leahspope/)
+
+
